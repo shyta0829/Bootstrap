@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand navbar-light bg-light sticky-top">
+
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="images\logo.png"></a>
+	
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Welcome</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Favorite Books</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Watch List</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Connect</a>
+			</li>
+		</ul>
+	</div>
+
+</div>
+</nav>
+
+<!--- Image Slider -->
+<div id=slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+</ul>
+
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="images\Background3.jpg">
+
+		<div class="carousel-caption">
+			<h1 class="display-2">Book Blog</h1>
+			<h3> Reading is Fundmental</h3>
+			<button type=button" class="btn btn-outline-light btn-lg">VIEW BOOKS</button>
+			<button type=button" class="btn btn-primary btn-lg">VIEW FAVORITES</button>
+		</div>
+	</div>
+
+	<div class="carousel-item">
+		<img src="images\Background2.jpg">
+	</div>
+
+	<div class="carousel-item">
+		<img src="images\Background1.jpg">
+	</div>
+		
+</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+<div class="row jumbotron">
+
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+		<p class="lead">A blog that invites insights of some of my faviorte books, comics, and my all time favorite titles. Along with some unique nuggets about me. </p>
+	</div>
+
+</div>
+</div>
+
+
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+
+	<div class="col-12">
+		<h1 class="display-4">WELCOME!</h1>
+	</div>
+
+	<hr>
+	<div class="col-12">
+		<p class="lead"> Welcome to my blog where we'll be learning about fantastic new books. I'm exicted to share my extensive list of authors and titles that are on the New York Best Sellers and less known books that fall under the radar. We'll discuss everything from non-fiction to comics. I hope all enjoy!</p>
+	</div>
+</div>
+</div>
+
+
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fab fa-accusoft"></i>
+		<h3> BOOKS </h3>
+		<p> To keep your mind curious</p>
+	</div>
+
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fab fa-earlybirds"></i>
+		<h3> WATCH LIST </h3>
+		<p> To keep the child in you</p>
+	</div>
+
+	<div class="col-xs-12 col-md-4">
+		<i class="far fa-comment"></i>
+		<h3> NUGGETS </h3>
+		<p> Fun Facts about me</p>
+	</div>
+
+</div>
+ <hr class="my-4">
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+
+	<div class="col-lg-6">
+		<h2> Fun advantages of reading: </h2>
+		<p> Your mind will expand to places you never thougt it could go. Not only is reading fundemental, but it's external to your growth, intergrity, and peace of mind. So, come and lets explore the riches of life on paper!</p>
+		<p> Let your mind explore the tresses of comic books and magna's. Similar to text, grapic novels bring so much to the imagination and more depth to the image building in your mind. </p>
+		<p> Last, but not least, enjoy the few tid bits here and there to better get to know the blogger; that's me, Shy!</p>
+		<br>
+		 <a href="#"class="btn btn-primary">Lets Go</a>
+
+	</div>
+
+	<div class="col-lg-6">
+		<img src="images\BGM.jpg" class="img-fluid">
+	</div>
+
+</div>
+</div>
+
+<hr class"my-4">
+<!--- Fixed background -->
+<figure>
+
+ <div class="fixed-wrap">
+	 <div class="col-12">
+		 <img src="images\feather.jpg">
+	 </div>	 
+ 	</div id="fixed">
+
+ </figure>
+
+
+<!--- Nugget Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Click for Nuggets</button>
+
+<div id="emoji" class="collapse">
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="images\GIF\DU.gif">
+	</div>
+
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="images\GIF\Stimpy.gif">
+	</div>
+
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="images\GIF\smile.gif">
+	</div>
+
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="images\GIF\RainyDay.gif">
+	</div>
+
+</div>
+</div>
+</div>
+
+  
+<!--- Meet the team -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+
+	<div class="col-12">
+		<h1 class="display-4">Favorite Authors & Books</h1>
+	</div>
+	<hr>
+
+</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+<div class="row padding">
+
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="images\favb1.jpg">
+			<div class="card-body">
+				<h4 class="card-title"> J.R. Ward </h4>
+				<p class="card-text"> Is not only a coming to author, she is a dynamic in bringing her readers another side to supernatural romance, thrill, and action.  <p>
+				<a href="https://jrward.com/" class="btn btn-outline-info"> See Author </a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="images\favb2.jpeg">
+			<div class="card-body">
+				<h4 class="card-title"> Maya Angelou </h4>
+				<p class="card-text"> A soul-bearing poet that never lets us forget that there is not only honor in living, but there is also honor in telling our truths. <p>
+				<a href="https://www.mayaangelou.com/" class="btn btn-outline-info"> See Author </a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="images\favb3.jpg">
+			<div class="card-body">
+				<h4 class="card-title"> Stephen King </h4>
+				<p class="card-text"> Has managed to keep on with the times, while still keeping some of his most oldest and best-sellers from the forefront on his career, popular. His books are filled with enough horror and suspense that it keeps readers turning page after page. <p>
+				<a href="https://stephenking.com/" class="btn btn-outline-info"> See Author </a>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+
+<hr>
+<!--- Two Column Section -->
+
+<div class="container-fluid padding">
+<div class="row padding">
+	
+		<div class="col-lg-6">
+		<h1 class="display-3"> Watch List </h1>
+
+			<ul class="list-group">
+				<li class="list-group-item"> D.K. Wall "The Queen of Hearts" </li>
+				<li class="list-group-item"> J.R. Ward "The Sinner" </li>
+				<li class="list-group-item"> Marvel - Donny Cates "Thor"</li>
+				<li class="list-group-item"> Marvel - Chuck Brown "On the Stump" </li>
+				<li class="list-group-item"> Stephanie Burt "After Callimahcus" </li>
+			  </ul>
+			  <br>
+		</div>
+	
+		<div class="col-lg-6">
+			<img src="images\Owl.jpg" class="img-fluid">
+		</div>
+	
+</div>
+<hr class="my-4">
+</div>
+
+
+<!--- Connect -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+
+	<div class="col-12">
+		<h2>Connect</h2>
+	</div>
+
+	<div class="col-12 social padding">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+	</div>
+
+
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+
+	<div class="col-12">
+		<img src="images\logo.PNG">
+		<hr class="light">
+		<p>Books are fun!</p>
+		<p>Comics are fun!</p>
+		<p>Reading is fun!</p>		
+	</div>
+
+	<div class="col-12">
+		<hr class="light">
+		<h5>&copy; Shy's Blog </h5>
+	</div>
+
+</div>
+</div>
+</footer>
+
+
+
+
+</body>
+</html>
+
+
+
